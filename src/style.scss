@@ -1,0 +1,63 @@
+$font-basic: 'Lato', sans-serif;
+$font-headline: 'Playfair Display', serif;
+
+$primary-color: #333;
+
+.phone {
+    height: 8vh;
+    background: radial-gradient(circle, rgba(46,62,116,1) 0%, rgba(23,31,58,1) 100%);
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin-top: 0;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 1.5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". . .";
+    height: 18vh;
+    background-color: blue;
+}
+
+.main-photo img{
+    display:block;
+    width: 100%;
+}
+
+.main-photo{
+    display:block;
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+    padding: 10%;
+}
+
+
+.nav-custom-left a{
+    text-decoration: none;
+    color: #6C7389;
+    margin-left: 10%;
+    text-align: right;
+}
+
+.nav-custom-right a{
+    text-decoration: none;
+    color: #6C7389;
+    margin-left: 10%;   
+    text-align: right;
+}
+
+.nav-custom-left {
+    padding: 8%;
+    margin-right:0%; 
+}
+
+.nav-custom-right {
+    padding: 8%;
+    margin-left: 0%; 
+}
+
