@@ -9,7 +9,15 @@ class Home extends Component {
   render() {
     return (
       <div className="main-photo">
-          <img src={mainPhoto} ></img>
+          {/* <img src={mainPhoto} ></img> */}
+          <div className="buttons"> 
+            <div className="button-action">
+              KNOW MORE
+            </div>
+            <div className="button-basic">
+              HIRE US
+            </div>
+          </div>
       </div>
     );
   }

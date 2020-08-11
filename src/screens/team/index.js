@@ -1,13 +1,11 @@
-import React, { FC, Component } from "react";
-import { Link } from "react-router-dom";
-
-
+import React, { Component } from "react";
+import mainPhoto from "../../assets/team.png";
 
 class Team extends Component {
   render() {
     return (
       <div className="main-photo">
-
+        <img src={mainPhoto}></img>
       </div>
     );
   }

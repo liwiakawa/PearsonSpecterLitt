@@ -7,18 +7,19 @@ class Nav extends Component {
     return (
       <div className="nav">
         <div className="nav-custom-left"> 
-        <a href="/about">HOME</a>
+        <a href="/">HOME</a>
         <a href="/about">ABOUT</a>
-        <a href="/about">TEAM</a>
+        <a href="/team">TEAM</a>
 
          </div>
         <div className="logo">
-          <img src={logo} ></img>
+        <a href="/"><img src={logo} ></img>
+          </a>
       </div>
       <div className="nav-custom-right"> 
-      <a href="/about">SERVICES</a>
-      <a href="/about">CAREER</a>
-      <a href="/about">CONTACT</a>
+      <a href="/services">SERVICES</a>
+      <a href="/career">CAREER</a>
+      <a href="/contact">CONTACT</a>
        </div>
       </div>
     );

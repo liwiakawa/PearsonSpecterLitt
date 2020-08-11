@@ -3,7 +3,7 @@ $font-headline: 'Playfair Display', serif;
 
 $primary-color: #333;
 
-.phone {
+.phone-container {
     height: 8vh;
     background: radial-gradient(circle, rgba(46,62,116,1) 0%, rgba(23,31,58,1) 100%);
     color: white;
@@ -12,23 +12,35 @@ $primary-color: #333;
     margin-top: 0;
 }
 
+.phone-number{
+    text-align: right;
+    margin-right: 10%;
+    padding: 1%;
+    font-family: $font-basic;
+    font-size: 20px;
+}
+
+.phone-icon {
+    font-size: medium;
+}
+
 .nav{
     display: grid;
     grid-template-columns: 1.5fr 0.5fr 1.5fr;
     grid-template-rows: 1fr;
     grid-template-areas: ". . .";
     height: 18vh;
-    background-color: blue;
 }
 
-.main-photo img{
-    display:block;
-    width: 100%;
-}
 
 .main-photo{
+    background-image: url(./assets/home.png);
+    background-size: cover;
+    background-position: center;
     display:block;
+    height: 100vh;
     width: 100%;
+    background-color: pink;
 }
 
 .logo {
@@ -40,24 +52,47 @@ $primary-color: #333;
 .nav-custom-left a{
     text-decoration: none;
     color: #6C7389;
-    margin-left: 10%;
-    text-align: right;
+    margin-right: 6%;
+    padding: 3.25%;
+
 }
 
 .nav-custom-right a{
     text-decoration: none;
     color: #6C7389;
-    margin-left: 10%;   
-    text-align: right;
+    padding: 6%;
 }
 
 .nav-custom-left {
-    padding: 8%;
-    margin-right:0%; 
+    padding:8%;
+    display:block;
+    text-align: right;
 }
 
 .nav-custom-right {
     padding: 8%;
-    margin-left: 0%; 
+}
+
+.buttons{
+    background-color: yellowgreen;
+    height:100px;
+    width: 36px;
+}
+
+.button-action{
+    border-radius: 5px;
+    background-color: #C61B23;
+    color: white;
+    font-family: $font-basic;
+    text-align: center;
+}
+
+.button-basic{
+    border-radius: 5px;
+    border-color: #BDC0C9;
+    background-color: #3A456667;
+    color: white;
+    font-family: $font-basic;
+    text-align: center;
 }
 
