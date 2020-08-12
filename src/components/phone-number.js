@@ -1,5 +1,4 @@
-import React, { FC, Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from "react";
 import {MdPhone} from "react-icons/md"
 
 class Phone extends Component {

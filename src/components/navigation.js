@@ -1,5 +1,4 @@
-import React, { FC, Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from "react";
 import logo from "../assets/logo.svg";
 
 class Nav extends Component {

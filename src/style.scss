@@ -85,10 +85,12 @@ $primary-color: #333;
     margin-left:35%;
 }
 
+.buttons a{
+    text-decoration: none;
+}
 .button-action{
     margin: auto;
-    padding:5%;
-    height:30%;
+    padding:6%;
     width: 65%;
     border-radius: 5px;
     background-color: #C61B23;
@@ -102,7 +104,6 @@ $primary-color: #333;
 .button-basic{
     margin: auto;
     padding:5%;
-    height:30%;
     width: 65%;
     border-radius: 5px;
     border: 2px solid #BDC0C9;

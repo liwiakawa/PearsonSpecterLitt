@@ -4,7 +4,7 @@ import mainPhoto from "../../assets/about.svg";
 class About extends Component {
   render() {
     return (
-      <div className="main-photo">
+      <div >
         <img src={mainPhoto}></img>
       </div>
     );
