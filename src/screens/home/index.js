@@ -1,22 +1,13 @@
 import React, { FC, Component } from "react";
 import { Link } from "react-router-dom";
-import mainPhoto from "../../assets/home.png";
-
-
-
 
 class Home extends Component {
   render() {
     return (
       <div className="main-photo">
-          {/* <img src={mainPhoto} ></img> */}
-          <div className="buttons"> 
-            <div className="button-action">
-              KNOW MORE
-            </div>
-            <div className="button-basic">
-              HIRE US
-            </div>
+          <div className="buttons">      
+          <a href="/services"><div className="button-basic">KNOW MORE</div></a>
+            <a href="/contact"><div className="button-action">HIRE US</div></a>
           </div>
       </div>
     );

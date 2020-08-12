@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import mainPhoto from "../../assets/contact.png";
+import mainPhoto from "../../assets/contact.svg";
 
 class Contact extends Component {
   render() {

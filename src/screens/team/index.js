@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import mainPhoto from "../../assets/team.png";
+import mainPhoto from "../../assets/team.svg";
 
 class Team extends Component {
   render() {
