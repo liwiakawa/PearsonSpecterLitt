@@ -1,0 +1,69 @@
+$font-basic: "Lato", sans-serif;
+$font-headline: "Playfair Display", serif;
+
+$primary-color: #2d3c70;
+$secondary-color: #c61b23;
+
+
+.career-photo {
+  margin-top: 0;
+}
+
+.career-photo-container {
+  background-image: url(../assets/career.png);
+  background-size: cover;
+  background-position: center;
+  display: block;
+  height: 74vh;
+  width: 100%;
+}
+
+.career-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . ."
+  }
+
+.career-card{
+    margin: auto;
+    height: 40vh;
+    width: 40vh;
+}
+
+.career-container{
+    padding: 5% 10%;
+}
+
+.list-icon{
+  max-width: 60%;
+}
+.list-icon-box{
+ width: 5%;
+ float: left;
+}
+
+.list-text{
+  width: 95%;
+  float:right;
+  font-family: $font-basic;
+  color: $primary-color;
+  font-size: 18;
+  font-weight: 300;
+}
+
+.list-elem{
+  width: 100%;
+  height: 6vh;
+  padding: 0% 0% 2% 0%;
+}
+
+.list{
+  padding: 3% 0% 3% 0%;
+}
+
+.would-you{
+  padding: 5% 10% 0% 10%;
+}

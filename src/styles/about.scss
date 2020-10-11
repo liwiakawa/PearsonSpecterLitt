@@ -1,0 +1,94 @@
+$font-basic: "Lato", sans-serif;
+$font-headline: "Playfair Display", serif;
+
+$primary-color: #2d3c70;
+$secondary-color: #c61b23;
+
+@media (min-width: 688px) {
+
+.about-photo {
+  margin-top: 0;
+}
+
+.about-photo-container {
+  background-image: url(../assets/contact.png);
+  background-size: cover;
+  background-position: center;
+  display: block;
+  height: 74vh;
+  width: 100%;
+}
+
+.city-photos{
+  padding: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . .";
+    width: 50%;
+    margin: auto;
+}
+
+.city-photos img{
+  width: auto;
+  height: auto;
+}
+
+
+.why-choose{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f3f6ff;
+}
+
+.why-choose-grid{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0% 5%;
+    grid-template-areas:
+      ". . .";
+}
+
+.card-why{
+margin: auto;
+}
+
+.icon-custom{
+  display: block;
+  margin: auto;
+  width: 15vh;
+  height: 15vh;
+
+}
+
+.icon-title{
+  text-align: center;
+  font-family: $font-basic;
+  font-size: 18px;
+  color: #343D5E;
+}
+
+.icon-desc{
+  padding-top: 4%;
+  text-align: center;
+  font-family: $font-basic;
+  font-size: 16px;
+  color: #343D5E;
+}
+
+.our-clients{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+}
+
+}

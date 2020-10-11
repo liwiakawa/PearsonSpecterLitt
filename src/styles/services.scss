@@ -1,0 +1,27 @@
+$font-basic: "Lato", sans-serif;
+$font-headline: "Playfair Display", serif;
+
+$primary-color: #2d3c70;
+$secondary-color: #c61b23;
+
+
+.services-photo {
+  margin-top: 0;
+}
+
+.services-photo-container {
+  background-image: url(../assets/services.png);
+  background-size: cover;
+  background-position: center;
+  display: block;
+  height: 74vh;
+  width: 100%;
+}
+
+.services-des{
+    padding: 5% 10% 5% 10%;
+}
+
+.services-accordion{
+    padding: 0% 10% 5% 10%;
+}

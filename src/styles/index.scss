@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import "./style.scss";
+@import "../styles/home.scss";
+@import "../styles/about.scss";
+@import "../styles/team.scss";
+@import "../styles/services.scss";
+@import "../styles/career.scss";
+@import "../styles/contact.scss";
+@import "../styles/components.scss";
+
 
 body {
   margin: 0;

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="313" height="273" viewBox="0 0 313 273">
+  <defs>
+    <filter id="Rectangle_40" x="0" y="0" width="313" height="273" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_88" data-name="Group 88" transform="translate(-927 -805)">
+    <g id="Group_19" data-name="Group 19" transform="translate(806)">
+      <g transform="matrix(1, 0, 0, 1, 121, 805)" filter="url(#Rectangle_40)">
+        <rect id="Rectangle_40-2" data-name="Rectangle 40" width="277" height="237" rx="8" transform="translate(18 14)" fill="#f3f6ff"/>
+      </g>
+      <text id="We_listen_to_our_employees" data-name="We listen to our employees" transform="translate(180 937.269)" fill="#2d3c70" font-size="25" font-family="Lato-Regular, Lato"><tspan x="11.138" y="25">We listen to our </tspan><tspan x="39.538" y="55">employees</tspan></text>
+    </g>
+    <path id="Icon_material-hearing" data-name="Icon material-hearing" d="M37.57,46.191a4.5,4.5,0,0,1-1.8-.354c-1.677-.874-2.858-2.079-4.039-5.622-1.2-3.685-3.472-5.409-5.645-7.086a17.955,17.955,0,0,1-5.48-5.976,14.8,14.8,0,0,1-1.937-6.945,11.811,11.811,0,0,1,23.621,0h4.724A16.345,16.345,0,0,0,30.483,3.672,16.345,16.345,0,0,0,13.948,20.207a19.553,19.553,0,0,0,2.527,9.212,22.518,22.518,0,0,0,6.732,7.441c1.913,1.465,3.283,2.527,4.039,4.842,1.417,4.3,3.236,6.708,6.449,8.386a9.456,9.456,0,0,0,13.322-8.622H42.294a4.738,4.738,0,0,1-4.724,4.724ZM15.46,5.184,12.106,1.83a26,26,0,0,0,0,36.755l3.331-3.331a21.271,21.271,0,0,1,.024-30.07Zm9.118,15.023A5.905,5.905,0,1,0,30.483,14.3,5.907,5.907,0,0,0,24.578,20.207Z" transform="translate(1058.123 875.17)"/>
+  </g>
+</svg>

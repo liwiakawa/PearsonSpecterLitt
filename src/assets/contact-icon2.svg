@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <filter id="Ellipse_6" x="0" y="0" width="120" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_91" data-name="Group 91" transform="translate(-103 -1454.5)">
+    <g transform="matrix(1, 0, 0, 1, 103, 1454.5)" filter="url(#Ellipse_6)">
+      <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="42" cy="42" r="42" transform="translate(18 14)" fill="#fff"/>
+    </g>
+    <path id="Icon_simple-minutemailer" data-name="Icon simple-minutemailer" d="M10.432,4.055l6.469,7-4.564,9,9.638-1.727,4.387,10.586L45,4.473ZM9.24,19.22l1.794-1.476-2.314.731-.236-.337.956-.928-1.254.506A12.772,12.772,0,0,0,4,38.918,12.681,12.681,0,0,1,2.34,32.628,13.09,13.09,0,0,1,10.431,20.59l.591-1.436-1.406.621-.4-.534.021-.021Zm8.183-3.694,3-5.289L38.04,6.109Z" transform="translate(141 1488.946)" fill="#2d3c70"/>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+$font-basic: "Lato", sans-serif;
+$font-headline: "Playfair Display", serif;
+
+$primary-color: #2d3c70;
+$secondary-color: #c61b23;
+
+
+.contact-photo {
+  margin-top: 0;
+}
+
+.contact-photo-container {
+  background-image: url(../assets/contact.png);
+  background-size: cover;
+  background-position: center;
+  display: block;
+  height: 74vh;
+  width: 100%;
+}
+
+.contact-container{
+    padding: 5% 10%;
+}
+
+.form-box{
+    padding-bottom: 5%;
+}
+
+.address-box{
+  padding: 5% 10%;
+}
+
+.address-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . .";
+}
+
+.address-card{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.contact-icon{
+  width: 40%;
+  height: 40%;
+ padding: 0% 30%;
+
+}
+
+.contact-text{
+  text-align: center;
+  font-family: $font-basic;
+  color: $primary-color;
+  font-size: 18;
+  font-weight: 300;
+}
+
+.contact-title{
+  text-align: center;
+  font-family: $font-basic;
+  color: $primary-color;
+  font-size: 20;
+  font-weight: 300;
+  padding: 5% 0%;
+}
+
+.map-container{
+  position:relative;
+  width:100%;
+  height:50vh;
+}

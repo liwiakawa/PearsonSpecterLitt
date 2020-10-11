@@ -9,6 +9,8 @@ import Contact from "./screens/contact";
 import Phone from "./components/phone-number";
 import Nav from"./components/navigation";
 
+import Footer from "./components/footer";
+
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +24,7 @@ function App() {
       <Route path="/career" component={Career}/>
       <Route path="/contact" component={Contact}/>
       </Switch>
+      <Footer></Footer>
       </BrowserRouter>
   );
 }

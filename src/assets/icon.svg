@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <filter id="Ellipse_4" x="0" y="0" width="120" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_60" data-name="Group 60" transform="translate(-241 -1603)">
+    <g transform="matrix(1, 0, 0, 1, 241, 1603)" filter="url(#Ellipse_4)">
+      <circle id="Ellipse_4-2" data-name="Ellipse 4" cx="42" cy="42" r="42" transform="translate(18 14)" fill="#fff"/>
+    </g>
+    <path id="Icon_open-lightbulb" data-name="Icon open-lightbulb" d="M17.059,0a2.5,2.5,0,0,0-.649.3L1.437,7.79a2.5,2.5,0,1,0,2.2,4.392L18.606,4.7A2.5,2.5,0,0,0,17.059,0ZM22.05,7.491a2.5,2.5,0,0,0-.649.3L1.437,17.772a2.5,2.5,0,1,0,2.2,4.392L23.6,12.182A2.5,2.5,0,0,0,22.05,7.491Zm0,9.982a2.5,2.5,0,0,0-.649.3L6.428,25.259a2.5,2.5,0,0,0,1.1,4.692h9.982a2.527,2.527,0,0,0,.8-4.991l5.291-2.8a2.5,2.5,0,0,0-1.547-4.692ZM9.273,34.942a2.527,2.527,0,1,0,.8,4.991h4.991a2.5,2.5,0,1,0,0-4.991H10.072a2.5,2.5,0,0,0-.449,0,2.494,2.494,0,0,0-.3,0Z" transform="translate(288.36 1639.035)" fill="#2d3c70"/>
+  </g>
+</svg>
